@@ -1,4 +1,4 @@
-# CSE-475-Projects
+# CSE 475 Final Project
 CSE 475 - Introduction to Machine Learning
 Final Project with Dr. Robert Atkinson
 Objective: Select a "real-world" database, conduct thorough analysis, build a machine learning model(s) and "address ethical considerations related to data usage". I took a ____ sized database and trained a Naive-Bayes machine learning model to classify a movie's TV rating (G, PG, PG-13, R, NC-17, NR) based on its description, director, duration, and cast.
