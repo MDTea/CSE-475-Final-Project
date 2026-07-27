@@ -5,7 +5,7 @@ Objective: Select a "real-world" database, conduct thorough analysis, build a ma
 
 Please note that a lot of the text elements in my Jupyter notebooks contain "past Madeleinne voicing her thoughts out loud as she does the project". It will give myself and whoever views this an opportunity to see my thought processes, why I chose the Naive-Bayes model over other ML model types, and what I learned after each step in the project.
 
-## Milestone 1: Analyze the Data
+## Milestone 1: EDA (Exploratory Data Analysis), Data Cleaning, and Feature Engineering
 Data: netflix_titles.csv -- contains information about Netflix movies and TV shows
 Database Size: 6131 x 12
 List of features (12):
@@ -36,4 +36,15 @@ List of features (12):
 
 ## Milestone 2: Train the Naive-Bayes Model
 At this point, I have cut down the database to 5188 rows x 16 columns. 
-## Milestone 3: Test the Naive-Bayes Model
+
+Step 1: Model Selection
+- I knew that I wanted to classify a movie's tv rating based on its description, directur, duration and cast. The target feature is 'rating', and this would be a supervised learning problem.
+- Model breakdown (what are ML models that I could possibly use?)
+     - Created pros and cons list for Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, Naive Bayes, and Neural Networks
+     - I decided on the Naive Bayes learning model because in class, I learned that it was "especially good for tasks like spam filtering or sentiment analysis, where features (like words) are somewhat independent"
+Step 2: Model Training
+
+Step 3: Model Evaluation (Testing)
+
+## Milestone 3: Final Analysis, Deployment, and Ethical Considerations
+
